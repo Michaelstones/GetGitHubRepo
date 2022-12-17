@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "san-serif";
+  margin: 0;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg #2a2a72 0%, #2e2a68 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+/* main {
+} */
+
+.card {
+  background-color: #2e2a68;
+  background-image: linear-gradient(315deg #2e2a68 0%, #009ffd 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 3rem;
+  box-shadow: 3px 7px 8px -2px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #2a2a72;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.card .content {
+  color: #ddd;
+}
+
+.card .content h2 {
+  margin-top: 0;
+  padding: 0;
+}
+
+.card .content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  max-width: 300px;
+  padding: 0;
+}
+
+.card .content ul strong {
+  margin-right: 0.5rem;
+  color: #5e5e86;
+}
+
+.inputEl {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: #2e2a68;
+  color: #b5b2e2;
+  border: none;
+  box-shadow: 3px 7px 8px -2px rgba(0, 0, 0, 0.75);
+}
+
+.inputEl::placeholder {
+  color: #ddd;
+}
+
+.content .repo {
+  background-color: #052ee6;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 0.7rem;
+}
